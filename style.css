@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #334257;
+}
+
+h1 {
+    color: whitesmoke;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+header a {
+    font-size: 35px;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.menu {
+    height: 80px;
+    background-color: purple;
+    display: none;
+}
+
+.main {
+    padding: 5px;
+    background-color: rebeccapurple;
+}
+
+.box {
+    margin: 5px;
+    height: 150px;
+    background-color: red;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons i {
+    padding: 15px;
+    font-size: 40px;
+}
