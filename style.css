@@ -1,186 +1,215 @@
-            body {
-                background-image: linear-gradient(to bottom right, #476072, #EEEEEE);
-            }
-            
-            .sidar {
-                display: none;
-            }
-            
-            .sidar:hover {
-                display: block;
-            }
-            
-            header {
-                width: 100%;
-                position: fixed;
-                display: flex;
-                justify-content: space-between;
-                background-color: #334257;
-            }
-            
-            h1 {
-                color: whitesmoke;
-                letter-spacing: 5px;
-                padding: 10px;
-            }
-            
-            a {
-                text-decoration: none;
-                font-size: 35px;
-                padding: 30px;
-                color: whitesmoke;
-                position: absolute;
-                left: 78%;
-                position: fixed;
-            }
-            
-            a ul {
-                display: none;
-                margin: 35px 0 0 0;
-                padding: 0;
-                border-radius: 3px;
-            }
-            
-            a:hover>ul {
-                display: block;
-                /* lösung von laszko */
-                /* float: right;
+ body {
+     background-image: linear-gradient(to bottom right, #476072, #EEEEEE);
+ }
+ 
+ header {
+     width: 100%;
+     position: fixed;
+     display: flex;
+     justify-content: space-between;
+     background-color: #334257;
+ }
+ 
+ h1 {
+     color: whitesmoke;
+     letter-spacing: 5px;
+     padding: 10px;
+ }
+ 
+ a {
+     text-decoration: none;
+     font-size: 35px;
+     padding: 30px;
+     color: whitesmoke;
+     position: absolute;
+     left: 78%;
+     position: fixed;
+ }
+ 
+ a ul {
+     display: none;
+     margin: 29px 0 0 0;
+     padding: 0;
+     border-radius: 3px;
+ }
+ 
+ a:hover>ul {
+     display: block;
+     /* solution of laszko */
+     /* float: right;
     direction: rtl; */
-                list-style: none;
-            }
-            
-            a ul li {
-                /* direction: rtl; */
-                font-size: 20px;
-                background-color: #476072;
-                padding: 20px 15px;
-            }
-            
-            a ul li:hover {
-                background-color: whitesmoke;
-                color: #476072;
-                border-radius: 3px;
-            }
-            
-            .background1 {
-                height: 600px;
-                background-image: url(https://images.prismic.io/indiecampers-demo/f8302bef-06d7-4063-8d8f-be4359674750_final+leipzig.jpg?auto=compress,format&rect=0,0,1996,1331&w=2000&h=1334);
-                background-attachment: fixed;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-            
-            .background2 {
-                height: 400px;
-                background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Old_city_hall_of_Leipzig_%2820%29.jpg/1280px-Old_city_hall_of_Leipzig_%2820%29.jpg);
-                background-attachment: fixed;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                margin-bottom: 25px;
-            }
-            
-            .menu {
-                height: 80px;
-                background-color: purple;
-                display: none;
-            }
-            
-            .main {
-                padding: 5px;
-                background-image: linear-gradient(to bottom right, #476072, #EEEEEE);
-            }
-            
-            .box {
-                border-radius: 5px;
-                margin: 20px 35px;
-                height: 200px;
-                background-color: #548CA8;
-            }
-            
-            .icons {
-                display: flex;
-                justify-content: space-evenly;
-            }
-            
-            .icons i {
-                padding: 15px;
-                font-size: 40px;
-            }
-            
-            footer {
-                border-top: 1px solid #334257;
-            }
-            
-            footer p {
-                text-align: center;
-            }
-            
-            .nav ul {
-                top: 10%;
-                position: absolute;
-                width: 100%;
-                position: fixed;
-                justify-content: space-around;
-                background-color: #548CA8;
-                padding: 20px 0;
-                margin: 0;
-                display: none;
-            }
-            
-            .nav ul li {
-                list-style: none;
-                color: whitesmoke;
-                font-size: 900;
-                cursor: pointer;
-                padding: 15px;
-                border-radius: 2px;
-            }
-            
-            .nav ul li:hover {
-                background-color: whitesmoke;
-                color: #334257;
-            }
-            
-            @media (min-width:550px) {
-                .main {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-                .box {
-                    flex-basis: 35%;
-                }
-                .nav ul {
-                    display: flex;
-                }
-                a {
-                    display: none;
-                }
-            }
-            
-            @media (min-width:900px) {
-                .main {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-                .box {
-                    flex-basis: 20%;
-                }
-                .nav ul {
-                    display: none;
-                }
-            }
-            
-            @media (min-width:1025px) {
-                .main {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-                .box {
-                    flex-basis: 20%;
-                }
-            }
+     list-style: none;
+ }
+ 
+ a ul li {
+     /* direction: rtl; */
+     font-size: 20px;
+     background-color: #476072;
+     padding: 20px 15px;
+ }
+ 
+ a ul li:hover {
+     background-color: whitesmoke;
+     color: #476072;
+     border-radius: 3px;
+ }
+ 
+ .background1 {
+     height: 600px;
+     background-image: url(https://images.prismic.io/indiecampers-demo/f8302bef-06d7-4063-8d8f-be4359674750_final+leipzig.jpg?auto=compress,format&rect=0,0,1996,1331&w=2000&h=1334);
+     background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+ .background2 {
+     height: 400px;
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Old_city_hall_of_Leipzig_%2820%29.jpg/1280px-Old_city_hall_of_Leipzig_%2820%29.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     margin-bottom: 25px;
+ }
+ 
+ .menu {
+     height: 80px;
+     background-color: transparent;
+     display: none;
+ }
+ 
+ .main {
+     padding: 5px;
+     background-image: linear-gradient(to bottom right, #476072, #EEEEEE);
+ }
+ 
+ main .menu-container .menu ul {
+     list-style: none;
+     margin: 10px 0 0 0;
+     padding: 0;
+ }
+ 
+ main .menu-container .menu ul li {
+     text-align: center;
+     padding: 10px 0;
+     color: whitesmoke;
+     font-weight: 900;
+     font-size: 20px;
+     display: none;
+ }
+ 
+ main .menu-container .menu ul li:hover {
+     background-color: whitesmoke;
+     color: #334257;
+ }
+ 
+ .box {
+     border-radius: 5px;
+     margin: 20px 35px;
+     height: 200px;
+     background-color: #548CA8;
+ }
+ 
+ .icons {
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ .icons i {
+     padding: 15px;
+     font-size: 40px;
+ }
+ 
+ footer {
+     border-top: 1px solid #334257;
+ }
+ 
+ footer p {
+     text-align: center;
+ }
+ 
+ .nav ul {
+     top: 10%;
+     position: absolute;
+     width: 100%;
+     position: fixed;
+     justify-content: space-around;
+     background-color: #548CA8;
+     padding: 20px 0;
+     margin: 0;
+     display: none;
+ }
+ 
+ .nav ul li {
+     list-style: none;
+     color: whitesmoke;
+     font-size: 900;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 2px;
+ }
+ 
+ .nav ul li:hover {
+     background-color: whitesmoke;
+     color: #334257;
+ }
+ 
+ @media (min-width:550px) {
+     .main {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     .box {
+         flex-basis: 35%;
+     }
+     .nav ul {
+         display: flex;
+     }
+     a {
+         display: none;
+     }
+ }
+ 
+ @media (min-width:900px) {
+     /* .main {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+     } */
+     .menu-container {
+         display: flex;
+         flex-wrap: wrap;
+     }
+     main .menu-container .menu {
+         display: block;
+     }
+     main .menu-container .menu ul li {
+         display: block;
+     }
+     .box {
+         flex-basis: 20%;
+     }
+     .nav ul {
+         display: none;
+     }
+     .menu {
+         flex-grow: 2;
+         display: block;
+     }
+     .container {
+         flex-grow: 6;
+     }
+ }
+ 
+ @media (min-width:1025px) {
+     .main {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     .box {
+         flex-basis: 20%;
+     }
+ }
