@@ -64,13 +64,13 @@
  }
  
  .background2 {
-     height: 400px;
+     height: 425px;
      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Old_city_hall_of_Leipzig_%2820%29.jpg/1280px-Old_city_hall_of_Leipzig_%2820%29.jpg);
      background-attachment: fixed;
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-     margin-bottom: 25px;
+     /* margin-bottom: 25px; */
  }
  
  .menu {
