@@ -37,11 +37,12 @@
      display: block;
      /* solution of laszko */
      /* float: right;
-    direction: rtl; */
+     direction: rtl; */
      list-style: none;
  }
  
  a ul li {
+     transition-duration: 0.2s;
      /* direction: rtl; */
      font-size: 20px;
      background-color: #476072;
